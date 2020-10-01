@@ -1,25 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
 .header-block {
   height: 6rem;
   text-align: center;
   color: white;
-  background: #343a40;
+  background: #0062cc;
   margin-bottom: 1.8rem;
   position: relative;
 }
 
 .header-title {
   line-height: 6rem;
+  font-family: 'Anton', sans-serif;
+  font-size: 50px;
 }
 
 .website-link {
   font-size: 1.2rem;
   font-weight: 500;
-  color: #0062cc;
+  color: #eee;
 }
 
 .website-link:hover {
-  color: #0062cc;
+  opacity: 0.2;
+  color: #081a2c;
   text-decoration: none;
+  
 }
 
 .header-description {
@@ -29,13 +35,12 @@
 .header-icon {
   margin-left: .4rem;
   display: inline-block;
-  float: right;
   color: white;
 }
 
 .header-icon:hover {
   cursor: pointer;
-  color: #0062cc;
+  opacity: 0.5;
 }
 
 .contacts-wrapper {
@@ -50,7 +55,20 @@
   }
 
   .header-title {
-    line-height: 6rem;
+    line-height: 5rem;
+  }
+
+  .website-link {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #eee;
+  }
+  
+  .website-link:hover {
+    opacity: 0.2;
+    color: #081a2c;
+    text-decoration: none;
+    
   }
 
   .contacts-wrapper {

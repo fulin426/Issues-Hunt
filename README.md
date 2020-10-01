@@ -1,6 +1,6 @@
 # Issues Hunt #
 
-Issues such as “good first issue” or “help wanted” are difficult to find. Right now a user would have to click on a specific repository and look through their issues to apply label filters. Being able to find issues easier would encourage more people, especially novice programmers, to contribute to open source projects.
+The Issues such as “good first issue” or “help wanted” are difficult to find. Right now a user would have to click on a specific repository and look through their issues to apply label filters. Being able to find issues easier would encourage more people, especially the novice programmers; to contribute to open source projects and give back to the programming community.
 
 ### User Story:
 * User can search for GitHub Issues across all repositories
@@ -26,5 +26,11 @@ By default this repository does not include API keys used in development. API ca
 or obtain you own Client ID and Client Secret by following the instructions below
 #### [How to Obtain Client ID and Client Secret](https://auth0.com/docs/connections/social/github)
 
-## Technology ##
-React, HTML, CSS, Bootstrap, Axios, Font-Awesome, Github API
+## Tech-Stack ##
+* HTML
+* CSS 
+* React.js
+* Bootstrap
+* Axios
+* Font-Awesome
+* Github API
