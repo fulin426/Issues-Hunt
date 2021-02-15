@@ -15,3 +15,7 @@
     border-color .10s ease-in-out,
     box-shadow .10s ease-in-out;
 }
+
+.App {
+  background-color: #d1d1d1;
+}
